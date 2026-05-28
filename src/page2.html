@@ -1,39 +1,348 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./output.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-      <header
-        class="flex items-center justify-between lg:py-[30px] max-w-[1100px] m-auto p-[20px]"
-      >
-        <div>
-          <img src="./images/logo.png" alt="" />
+  </head>
+  <body>
+    <header
+      class="flex items-center justify-between lg:py-[30px] max-w-[1100px] m-auto p-[20px]"
+    >
+      <div>
+        <img src="./images/logo.png" alt="" />
+      </div>
+      <nav class="hidden lg:flex gap-[25px] text-[#424551] font-bold">
+        <a href="">About Us</a>
+        <a href="">Courses</a>
+        <a href="">Courses</a>
+        <a href="">Blog</a>
+        <a href="">Contacts</a>
+      </nav>
+      <div class="flex gap-[15px]">
+        <button
+          class="hidden lg:block bg-[#F95614] text-white font-bold rounded-[4px] p-[15px] hover:border hover:border-[#FA511C] hover:text-[#FB4D23] hover:bg-white"
+        >
+          Get consultation
+        </button>
+        <div class="flex font-bold items-center gap-[5px]">
+          <i class="fa-solid fa-user"></i>
+          <p>Log in / Register</p>
         </div>
-        <nav class="hidden lg:flex gap-[25px] text-[#424551] font-bold">
-          <a href="">About Us</a>
-          <a href="">Courses</a>
-          <a href="">Courses</a>
-          <a href="">Blog</a>
-          <a href="">Contacts</a>
-        </nav>
-        <div class="flex gap-[15px]">
-          <button
-            class="hidden lg:block bg-[#F95614] text-white font-bold rounded-[4px] p-[15px]"
-          >
-            Get consultation
-          </button>
-          <div class="flex font-bold items-center gap-[5px]">
-            <i class="fa-solid fa-user"></i>
-            <p>Log in / Register</p>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="px-[20px] flex flex-col gap-[20px] lg:flex-row justify-between max-w-[1100px] m-auto my-[50px]"
+      >
+        <div class="flex flex-col gap-[35px] lg:w-[50%]">
+          <div class="flex flex-col gap-[10px]">
+            <p class="font-bold">About us</p>
+            <p class="text-2xl font-bold">Createx Online School</p>
+          </div>
+          <div class="flex flex-col gap-[10px]">
+            <p class="lg:text-[20px] font-bold">
+              Createx Online School is a leader in online studying. We have lots
+              of courses and programs from the main market experts.
+            </p>
+            <p class="text-[#424551] text-[14px] lg:text-[16px]">
+              We provide relevant approaches to online learning, internships and
+              employment in the largest companies in the country. Our
+              educational programs help you get a new specialty from scratch.
+              During your studies, we will help you find a job. Check the
+              courses and online events that we organise.
+            </p>
+          </div>
+          <div class="flex flex-col gap-[5px] lg:flex-row lg:gap-[12px]">
+            <buttton
+              class="text-[#FB4D23] border border-[#FA511C] font-bold py-[17px] px-[45px] rounded-[7px] text-center hover:text-white hover:bg-[#FD472D]"
+              >Explore events</buttton
+            >
+            <buttton
+              class="font-bold py-[15px] px-[35px] rounded-[7px] text-white bg-[#FD472D] text-center hover:border hover:border-[#FA511C] hover:text-[#FB4D23] hover:bg-white"
+              >Browse courses</buttton
+            >
           </div>
         </div>
-      </header>
+        <div>
+          <img src="./images/p2ill1.png" alt="" />
+        </div>
+      </section>
+      <section
+        class="lg:my-[150px] my-[80px] px-[20px] flex flex-col gap-[25px] lg:flex-row justify-between max-w-[1100px] m-auto items-center lg:gap-[100px]"
+      >
+        <div>
+          <img src="./images/p2im1.png" alt="" />
+        </div>
+        <div class="flex flex-col gap-[20px] items-center lg:items-start">
+          <div class="flex gap-[12px] items-center">
+            <p class="text-4xl text-[#FF3F3A] font-bold lg:text-5xl">1200</p>
+            <p class="text-[18px] font-bold">students graduated</p>
+          </div>
+          <div class="flex gap-[12px] items-center">
+            <p class="text-4xl text-[#FF3F3A] font-bold lg:text-5xl">84</p>
+            <p class="text-[18px] font-bold">completed courses</p>
+          </div>
+          <div class="flex gap-[12px] items-center">
+            <p class="text-4xl text-[#FF3F3A] font-bold lg:text-5xl">16</p>
+            <p class="text-[18px] font-bold">qualified tutors</p>
+          </div>
+          <div class="flex gap-[12px] items-center">
+            <p class="text-4xl text-[#FF3F3A] font-bold lg:text-5xl">5</p>
+            <p class="text-[18px] font-bold">years of experience</p>
+          </div>
+        </div>
+      </section>
+      <section class="px-[20px] max-w-[1100px] m-auto">
+        <div class="flex flex-col gap-[10px] items-center">
+          <p class="font-bold">About us</p>
+          <p class="text-2xl font-bold lg:text-5xl">Createx Online School</p>
+        </div>
+        <div class="my-[25px] flex flex-col gap-[25px] lg:flex-row gap-[30px] my-[50px]">
+          <div class="flex flex-col gap-[15px] items-center lg:border-r lg:border-r-[#DADBDD80]">
+            <div>
+                <img src="./images/ic-structure.png" alt="">
+            </div>
+            <p class="text-[20px] font-bold">Structured Approach</p>
+            <p class="text-center text-[#787A80]">Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris.</p>
+          </div>
+          <div class="flex flex-col gap-[15px] items-center lg:border-r lg:border-r-[#DADBDD80]">
+            <div>
+                <img src="./images/ic-chat.png" alt="">
+            </div>
+            <p class="text-[20px] font-bold">Professional Feedbacks</p>
+            <p class="text-center text-[#787A80]">Culpa nostrud commodo ea consequat reprehenderit aliquip. </p>
+          </div>
+          <div class="flex flex-col gap-[15px] items-center lg:border-r lg:border-r-[#DADBDD80]">
+            <div>
+                <img src="./images/ic-target.png" alt="">
+            </div>
+            <p class="text-[20px] font-bold">Efficiency</p>
+            <p class="text-center text-[#787A80]">Viverra scelerisque consequat net. Adipisicing esse consequat. </p>
+          </div>
+          <div class="flex flex-col gap-[15px] items-center lg:border-r lg:border-r-[#DADBDD80]">
+            <div>
+                <img src="./images/ic-chat.png" alt="">
+            </div>
+            <p class="text-[20px] font-bold">Flexible Shedule</p>
+            <p class="text-center text-[#787A80]">Aute eiusmod dolore dolore deserunt veniam ad deserunt. </p>
+          </div>
 
-    
-</body>
+        </div>
+      </section>
+      <section class="px-[20px] max-w-[1100px] m-auto lg:my-[100px]">
+        <div class="flex flex-col gap-[10px] items-center">
+          <p class="font-bold">About us</p>
+          <p class="text-2xl font-bold lg:text-5xl">Createx Online School</p>
+        </div>
+        <div class="my-[30px] flex flex-col gap-[25px] lg:grid grid-cols-3">
+            <div>
+                <div>
+                    <img src="./images/p2im2.png" alt="">
+                </div>
+                <div class="border-r border-r-[#E5E8ED] border-b border-b-[#E5E8ED] border-l border-l-[#E5E8ED] flex flex-col gap-[20px] p-[25px] items-start">
+                  <button class="bg-[#03CEA4] font-bold rounded-[5px] p-[5px] text-white">Marketing</button>
+                  <p class="text-[#787A80]">Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+                  <div class="flex gap-[10px] items-center">
+                    <p class="font-bold">Check courses</p>
+                    <i class="fa-solid text-[#FF3F3A] fa-arrow-right"></i>
+                  </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="./images/p2im3.png" alt="">
+                </div>
+                <div class="border-r border-r-[#E5E8ED] border-b border-b-[#E5E8ED] border-l border-l-[#E5E8ED] flex flex-col gap-[20px] p-[25px] items-start">
+                  <button class="bg-[#5A87FC] font-bold rounded-[5px] p-[5px] text-white">Management</button>
+                  <p class="text-[#787A80]">Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+                  <div class="flex gap-[10px] items-center">
+                    <p class="font-bold">Check courses</p>
+                    <i class="fa-solid text-[#FF3F3A] fa-arrow-right"></i>
+                  </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="./images/p2im4.png" alt="">
+                </div>
+                <div class="border-r border-r-[#E5E8ED] border-b border-b-[#E5E8ED] border-l border-l-[#E5E8ED] flex flex-col gap-[20px] p-[25px] items-start">
+                  <button class="bg-[#F89828] font-bold rounded-[5px] p-[5px] text-white">HR & Recruting</button>
+                  <p class="text-[#787A80]">Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+                  <div class="flex gap-[10px] items-center">
+                    <p class="font-bold">Check courses</p>
+                    <i class="fa-solid text-[#FF3F3A] fa-arrow-right"></i>
+                  </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="./images/p2im5.png" alt="">
+                </div>
+                <div class="border-r border-r-[#E5E8ED] border-b border-b-[#E5E8ED] border-l border-l-[#E5E8ED] flex flex-col gap-[20px] p-[25px] items-start">
+                  <button class="bg-[#F52F6E] font-bold rounded-[5px] p-[5px] text-white">Design</button>
+                  <p class="text-[#787A80]">Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+                  <div class="flex gap-[10px] items-center">
+                    <p class="font-bold">Check courses</p>
+                    <i class="fa-solid text-[#FF3F3A] fa-arrow-right"></i>
+                  </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="./images/p2im6.png" alt="">
+                </div>
+                <div class="border-r border-r-[#E5E8ED] border-b border-b-[#E5E8ED] border-l border-l-[#E5E8ED] flex flex-col gap-[20px] p-[25px] items-start">
+                  <button class="bg-[#7772F1] font-bold rounded-[5px] p-[5px] text-white">Development</button>
+                  <p class="text-[#787A80]">Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+                  <div class="flex gap-[10px] items-center">
+                    <p class="font-bold">Check courses</p>
+                    <i class="fa-solid text-[#FF3F3A] fa-arrow-right"></i>
+                  </div>
+                </div>
+            </div>
+        <div class="bg-[#F4F5F6] h-[424px] flex items-center justify-center">
+               <p class="font-bold text-center text-[21px]">New studying program coming soon...</p>
+            </div>
+        </div>
+      </section>
+      <section class="px-[20px] py-[50px] max-w-[1150px] m-auto">
+        <div class="flex flex-col items-center lg:items-start">
+          <p class="font-bold">Our blog</p>
+          <p class="font-bold text-2xl lg:text-5xl">
+            Latest posts 
+          </p>
+        </div>
+        <div class="my-[30px] flex flex-col gap-[25px] lg:flex-row">
+         <div class="flex flex-col gap-[15px]">
+          <div>
+            <img src="images/im1.png" alt="">
+          </div>
+          <div class="flex gap-[25px] items-center text-[gray]">
+            <p class="border-r border-r-[gray] px-[15px]">Marketing</p>
+            <p class="border-r border-r-[gray] px-[15px]">September</p>
+            <p>36 min</p>
+          </div>
+          <p class="lg:text-[20px] font-bold">What is traffic arbitrage and does it really make money?</p>
+          <p class="text-[#424551]">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
+          <div class="flex gap-[10px] items-center">
+            <p class="font-bold">Listen</p>
+            <i class="fa-solid text-[#F95418] fa-arrow-right"></i>
+          </div>
+         </div>
+         <div class="flex flex-col gap-[15px]">
+          <div>
+            <img src="images/im2.png" alt="">
+          </div>
+          <div class="flex gap-[25px] items-center text-[gray]">
+            <p class="border-r border-r-[gray] px-[15px]">Management</p>
+            <p class="border-r border-r-[gray] px-[15px]">August</p>
+            <p>36 min</p>
+          </div>
+          <p class="lg:text-[20px] font-bold">What is traffic arbitrage and does it really make money?</p>
+          <p class="text-[#424551]">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
+          <div class="flex gap-[10px] items-center">
+            <p class="font-bold">Watch</p>
+            <i class="fa-solid text-[#F95418] fa-arrow-right"></i>
+          </div>
+         </div>
+         <div class="flex flex-col gap-[15px]">
+          <div>
+            <img src="images/im3.png" alt="">
+          </div>
+          <div class="flex gap-[25px] items-center text-[gray]">
+            <p class="border-r border-r-[gray] px-[15px]">Design</p>
+            <p class="border-r border-r-[gray] px-[15px]">August</p>
+            <p>36 min</p>
+          </div>
+          <p class="lg:text-[20px] font-bold">Should you choose a creative profession if you are attracted?</p>
+          <p class="text-[#424551]">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
+          <div class="flex gap-[10px] items-center">
+            <p class="font-bold">Read</p>
+            <i class="fa-solid text-[#F95418] fa-arrow-right"></i>
+          </div>
+         </div>
+
+        </div>
+      </section>
+      <section class="bg-[#FEDBD3] h-[400px] lg:h-[460px] px-[20px]">
+        <div class="flex flex-col gap-[40px] max-w-[1100px] m-auto">
+        <div class="flex flex-col items-center">
+          <p class="font-bold">Don’t miss anything</p>
+          <p class="font-bold text-2xl lg:text-5xl text-center">
+            Subscribe to the Createx School <br> announcements 
+          </p>
+        </div>
+        <div class="flex flex-col gap-[10px] lg:flex-row lg:gap-[20px] lg:justify-center">
+          <input class="bg-white lg:w-[400px] px-[20px] py-[15px] rounded-[6px]" type="email" placeholder="Your working email">
+          <button class="font-bold text-white bg-[#FF4434] rounded-[7px] px-[35px] py-[15px]">Subscribe</button>
+        </div>
+        </div>
+        <div class="flex justify-between">
+          <div>
+            <img src="images/illv.png" alt="">
+          </div>
+          <div>
+            <img src="images/illv.png" alt="">
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+        <footer class="bg-[#1E212C] py-[50px] px-[20px]">
+      <div class="flex flex-col gap-[20px] lg:flex-row max-w-[1300px] m-auto justify-between">
+       <div class="flex flex-col gap-[20px] lg:w-[32%]">
+        <div>
+          <img src="images/lf.png" alt="">
+        </div>
+        <p class="text-[12px] font-[300] text-white">Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts. We provide relevant approaches to online learning, internships and employment in the largest companies in the country. </p>
+        <div>
+          <img src="images/socials.png" alt="">
+        </div>
+       </div>
+       <div class="flex justify-between lg:gap-[20px]">
+       <div class="font-[150px] text-white gap-[12px]">
+        <p class="font-bold">SITE MAP</p>
+        <p>About Us</p>
+        <p>Courses</p>
+        <p>Events</p>
+        <p>Contacts</p>
+        <p>Blog</p>
+       </div>
+       <div class="font-[150px] text-white gap-[12px]">
+        <p class="font-bold">COURSES</p>
+        <p>Marketing </p>
+        <p>Management</p>
+        <p>HR & Recruting</p>
+        <p>Design</p>
+        <p>Development</p>
+       </div>
+       <div class="font-[150px] text-white gap-[12px]">
+        <p class="font-bold">CONTACT US</p>
+        <p>hello@createx.com</p>
+        <p>(405) 555-0128</p>
+       </div>
+
+       </div>
+       <div class="flex gap-[12px] flex-col lg:w-[30%]">
+        <p class="text-white font-bold">SIGN UP TO OUR NEWSLETTER</p>
+        <input class="px-[15px] py-[10px] bg-[#393C46] text-white rounded-[10px]" type="email" placeholder="Email address">
+        <p class="text-[10px] text-white">*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.</p>
+       </div>
+      </div>
+    </footer>
+
+
+  </body>
 </html>
