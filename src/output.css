@@ -195,6 +195,9 @@
   .my-\[80px\] {
     margin-block: 80px;
   }
+  .my-\[150px\] {
+    margin-block: 150px;
+  }
   .flex {
     display: flex;
   }
